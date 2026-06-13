@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- Jupyter / Google Colab ---
+.ipynb_checkpoints/
+
+# --- Logs y temporales ---
+*.log
+*.tmp
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Credenciales (NUNCA subir tokens ni claves) ---
+*.env
+.env
+secrets.*
+token.txt
+
+# NOTA: el dataset datos/ventas.csv SI se versiona a proposito,
+# porque es liviano y necesario para reproducir el analisis.
